@@ -3,6 +3,7 @@ packages
 *.dll
 *.exe
 *.pdb
+*.xml
 /build/
 *.suo
 *.user
