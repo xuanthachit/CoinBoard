@@ -21,11 +21,21 @@ namespace CoinBoard
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Scripts/respond.js",
+                      "~/Scripts/jquery.js",
+                      "~/Scripts/jquery-1.8.3.min.js",
+                      "~/Scripts/jquery.sparkline.js",
+                      "~/Scripts/charts.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/bootstrap-theme.css",
+                      "~/Content/elegant-icons-style.css",
+                      "~/Content/font-awesome.min.css",
+                      "~/Content/line-icons.css",
+                      "~/Content/style-responsive.css",
+                      "~/Content/style.css"));
         }
     }
 }
